@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Оплата</title>
+    <script
+      src="https://kit.fontawesome.com/2dd9a30273.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- skin colors links -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!--====Style switcher===-->
+    <link rel="stylesheet" href="css/skin/color-1.css" />
+    <link
+      rel="stylesheet"
+      href="css/skin/color-1.css"
+      class="alternate-style"
+      title="color-1"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skin/color-2.css"
+      class="alternate-style"
+      title="color-2"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skin/color-3.css"
+      class="alternate-style"
+      title="color-3"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skin/color-4.css"
+      class="alternate-style"
+      title="color-4"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skin/color-5.css"
+      class="alternate-style"
+      title="color-5"
+      disabled
+    />
+    <link rel="stylesheet" href="css/main.min.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/categorys/pay.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- --- NAVBAR-START --- -->
+    <div id="language">
+      <div class="container">
+        <div class="lang">
+          <a href="#">RU</a>
+          <a href="#">UZB</a>
+        </div>
+      </div>
+    </div>
+    <nav id="navbar">
+      <div class="container navbar__container">
+        <div class="nav-left">
+          <button class="hamburger" id="navbar-open">
+            <img
+              width="40px"
+              src="./assets/images/sotrudnichestvo/hamburger.svg"
+              alt="menu"
+            />
+          </button>
+          <a class="mobile-img" href="#">
+            <img width="41px" src="assets/images/home/logo-footer.svg" alt="" />
+          </a>
+          <a class="desktop-img" href="#">
+            <img
+              class="milandi"
+              src="assets/images/sotrudnichestvo/MILANDI.svg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="nav-middle" id="navbar-responsive">
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a href="./mackbook-11.html" class="nav-link">О нас</a>
+            </li>
+            <li class="nav-item">
+              <a href="category.html" class="nav-link">Категории</a>
+            </li>
+            <li class="nav-item">
+              <a href="./sotrudnichestvo.html" class="nav-link"
+                >Сотрудничество</a
+              >
+            </li>
+            <button class="close" id="navbar-close">
+              <img
+                width="45px"
+                src="./assets/images/sotrudnichestvo/close.svg"
+                alt="close"
+              />
+            </button>
+            <div class="nav-btns">
+              <a href="./desktop2.html">Войти</a>
+              <a href="./desktop3.html">Зарегистрироваться</a>
+            </div>
+          </ul>
+        </div>
+        <div class="nav-right">
+          <div class="nav-right-btns">
+            <a href="./desktop2.html">Войти</a>
+            <a href="./desktop3.html">Зарегистрироваться</a>
+          </div>
+          <a href="./desktop1.html" class="shop_abs">
+            <img src="assets/images/home/korzinka-navbar.svg" alt="" />
+          </a>
+        </div>
+      </div>
+      <div class="shopping_card">
+        <h1>Card</h1>
+        <ul>
+          listCard
+        </ul>
+        <div class="checkout">
+          <div class="total">0</div>
+          <div class="closeShopping">Close</div>
+        </div>
+      </div>
+    </nav>
+    <!-- --- NAVBAR-END --- -->
+
+    <!-- ---MAIN--- -->
+    <main>
+      <section id="pay">
+        <img
+          class="star_bg"
+          src="assets/images/icon&logos/pngwing.com.png"
+          alt=""
+        />
+        <div class="container">
+          <div class="pay_title">
+            <h1 class="font-bold text-4xl text-black pt-16">Оплата</h1>
+          </div>
+          <div class="pay_item pt-10 pb-16">
+            <div class="pay__left">
+              <img
+                src="assets/images/categorys/image 30.svg"
+                alt="Plastic card"
+                width="366px"
+                height="366px    "
+              />
+            </div>
+            <div class="pay__right">
+              <div class="inputContainer">
+                <input
+                  required="required"
+                  id="inputField"
+                  placeholder="Имя на карте"
+                  type="text"
+                />
+                <label class="usernameLabel" for="inputField"
+                  >CardHolder Name</label
+                >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                  class="userIcon"
+                >
+                  <path
+                    d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"
+                  />
+                </svg>
+              </div>
+              <div class="inputContainer">
+                <input
+                  required="required"
+                  id="inputField"
+                  placeholder="Номер карты"
+                  type="text"
+                />
+                <label class="usernameLabel" for="inputField"
+                  >8600 1234 5678 0000</label
+                >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 576 512"
+                  class="userIcon"
+                >
+                  <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M470.1 231.3s7.6 37.2 9.3 45H446c3.3-8.9 16-43.5 16-43.5-.2.3 3.3-9.1 5.3-14.9l2.8 13.4zM576 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h480c26.5 0 48 21.5 48 48zM152.5 331.2L215.7 176h-42.5l-39.3 106-4.3-21.5-14-71.4c-2.3-9.9-9.4-12.7-18.2-13.1H32.7l-.7 3.1c15.8 4 29.9 9.8 42.2 17.1l35.8 135h42.5zm94.4.2L272.1 176h-40.2l-25.1 155.4h40.1zm139.9-50.8c.2-17.7-10.6-31.2-33.7-42.3-14.1-7.1-22.7-11.9-22.7-19.2.2-6.6 7.3-13.4 23.1-13.4 13.1-.3 22.7 2.8 29.9 5.9l3.6 1.7 5.5-33.6c-7.9-3.1-20.5-6.6-36-6.6-39.7 0-67.6 21.2-67.8 51.4-.3 22.3 20 34.7 35.2 42.2 15.5 7.6 20.8 12.6 20.8 19.3-.2 10.4-12.6 15.2-24.1 15.2-16 0-24.6-2.5-37.7-8.3l-5.3-2.5-5.6 34.9c9.4 4.3 26.8 8.1 44.8 8.3 42.2.1 69.7-20.8 70-53zM528 331.4L495.6 176h-31.1c-9.6 0-16.9 2.8-21 12.9l-59.7 142.5H426s6.9-19.2 8.4-23.3H486c1.2 5.5 4.8 23.3 4.8 23.3H528z"
+                  />
+                </svg>
+              </div>
+              <div class="inputContainer">
+                <input
+                  required="required"
+                  id="inputField"
+                  placeholder="MM/YY"
+                  type="text"
+                />
+                <label class="usernameLabel" for="inputField"
+                  >Cрок хранения</label
+                >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 576 512"
+                  class="userIcon"
+                >
+                  <path
+                    d="M528 160V416c0 8.8-7.2 16-16 16H320c0-44.2-35.8-80-80-80H176c-44.2 0-80 35.8-80 80H64c-8.8 0-16-7.2-16-16V160H528zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM272 256a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zm104-48c-13.3 0-24 10.7-24 24s10.7 24 24 24h80c13.3 0 24-10.7 24-24s-10.7-24-24-24H376zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24h80c13.3 0 24-10.7 24-24s-10.7-24-24-24H376z"
+                  />
+                </svg>
+              </div>
+              <div>
+                <button class="pay_btn" formaction="category.html">
+                  Оплатить
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- --- FOOTER-START --- -->
+    <footer class="footer_home">
+      <div class="container footer__container">
+        <div class="footer-desktop">
+          <div class="footer-desktop-left">
+            <div class="proimperia">
+              <h4>про imperia</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget
+                pretium aenean dignissim sit cursus dictumst adipiscing nunc.
+              </p>
+              <a href="#">
+                <img src="./assets/images/home/logo-footer.svg" alt="" />
+              </a>
+            </div>
+            <div class="footer-left-menu">
+              <div class="contact">
+                <h4>контакты</h4>
+                <a href="tel: +998 93 076 69 23">+998 93 076 69 23</a>
+                <a href="mailto: support@fonon.uz">support@fonon.uz</a>
+              </div>
+              <div class="work-time">
+                <h4>рабочее время</h4>
+                <p>По будням 9:00 to 18:00</p>
+                <p>В выходные 11:00 to 18:00</p>
+              </div>
+            </div>
+          </div>
+          <div class="footer-desktop-right">
+            <div class="footer-menu">
+              <h4>Меню</h4>
+              <a href="#">Главная</a>
+              <a href="#">О нас</a>
+              <a href="#">Категории</a>
+              <a href="#">Сотрудничество</a>
+            </div>
+            <div class="category">
+              <h4>категории</h4>
+              <a href="#">Женская одежда</a>
+              <a href="#">Мужская одежда</a>
+              <a href="#">Детская одежда</a>
+              <a href="#">Обувь</a>
+              <a href="#">Сумки</a>
+              <a href="#">Аксесуары</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-mobile">
+          <p>
+            High fidelity wireframes include more real content, specific
+            typography choices, and information on image.
+          </p>
+          <div class="footer-mobile-menu">
+            <div class="mobile-menu-left">
+              <a href="#">Catalog</a>
+              <a href="#">Popular</a>
+              <a href="#">Pricing</a>
+              <a href="#">Features</a>
+            </div>
+            <div class="mobile-menu-right">
+              <a href="#">About</a>
+              <a href="#">Blog</a>
+              <a href="#">Contacts</a>
+            </div>
+          </div>
+          <div class="footer-mobile-bottom">
+            <div class="location">
+              <a href="#">
+                <img src="assets/images/sotrudnichestvo/locationn.svg" alt="" />
+              </a>
+              <p>Los Angeles, 359 Hidden Valley Road</p>
+            </div>
+            <div class="mail">
+              <a href="#">
+                <img src="assets/images/sotrudnichestvo/email.svg" alt="" />
+              </a>
+              <p>Hellohero@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- --- FOOTER-END --- -->
+    <!-- DARK MODE SWITCHER STYLES -->
+    <!--===Style Switcher Start===-->
+    <div class="style-switcher">
+      <div class="style-switcher-toggler s-icon">
+        <i class="fas fa-cog fa-spin"></i>
+      </div>
+      <div class="day-night s-icon">
+        <i class="fas fa"></i>
+      </div>
+      <h4>Theme Colors</h4>
+      <div class="colors">
+        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+        <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+        <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+        <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+      </div>
+    </div>
+    <!--===Style Switcher Start===-->
+    <!-- DARK MODE SWITCHER STYLES -->
+    <!-- ---MAIN--- -->
+    <script src="js/darkmode.js"></script>
+  </body>
+</html>
